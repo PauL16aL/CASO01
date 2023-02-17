@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body background="Images/fondo.jpg">
+    <form action="" name="formulario" class="form" id="form">
+        <h1>Formulario</h1>
+        <label>Nombre</label>
+        <input name="nombre" class="datos" id="nombre" type="text" placeholder="Ingresa tu nombre" onkeypress="return sinNumeros(event)">
+        <br></br>
+        <label>Correo</label>
+        <input name="correo" class="datos" id="Email" type="email" placeholder="Ingresa tu Email">
+        <br></br>
+        <label>Número Aleatorio</label>
+        <p id="NumeroRandom">
+        </p>
+        <br></br>
+        <button disabled id="btn" class="btn">Enviar</button>
+    </form>
+    <script src="JS/index.js"></script>
+</body>
+</html>
